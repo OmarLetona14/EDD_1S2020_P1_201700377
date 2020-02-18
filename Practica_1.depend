@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1581880646 source:d:\users\omar\desktop\codeblocks - c++\practica_1\main.cpp
+	<iostream>
+	"ListaDoblementeEnlazada.h"
+	"GenerarMenu.h"
+	<curses.h>
+
+1581838367 source:d:\users\omar\desktop\codeblocks - c++\practica_1\src\listadoblementeenlazada.cpp
+	"ListaDoblementeEnlazada.h"
+	<iostream>
+
+1581838385 d:\users\omar\desktop\codeblocks - c++\practica_1\include\listadoblementeenlazada.h
+
+1581883540 source:d:\users\omar\desktop\codeblocks - c++\practica_1\src\archivo.cpp
+	"Archivo.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1581883536 d:\users\omar\desktop\codeblocks - c++\practica_1\include\archivo.h
+	<iostream>
+	<fstream>
+	<string>
+
+1581883294 d:\users\omar\desktop\codeblocks - c++\practica_1\include\generarmenu.h
+	"ListaDoblementeEnlazada.h"
+
+1581884474 source:d:\users\omar\desktop\codeblocks - c++\practica_1\src\generarmenu.cpp
+	"GenerarMenu.h"
+	<iostream>
+	<curses.h>
+	"ListaDoblementeEnlazada.h"
+	"Archivo.h"
+
