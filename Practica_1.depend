@@ -5,11 +5,11 @@
 	"GenerarMenu.h"
 	<curses.h>
 
-1581838367 source:d:\users\omar\desktop\codeblocks - c++\practica_1\src\listadoblementeenlazada.cpp
+1582062888 source:d:\users\omar\desktop\codeblocks - c++\practica_1\src\listadoblementeenlazada.cpp
 	"ListaDoblementeEnlazada.h"
 	<iostream>
 
-1581838385 d:\users\omar\desktop\codeblocks - c++\practica_1\include\listadoblementeenlazada.h
+1582062879 d:\users\omar\desktop\codeblocks - c++\practica_1\include\listadoblementeenlazada.h
 
 1581883540 source:d:\users\omar\desktop\codeblocks - c++\practica_1\src\archivo.cpp
 	"Archivo.h"
@@ -25,10 +25,15 @@
 1581883294 d:\users\omar\desktop\codeblocks - c++\practica_1\include\generarmenu.h
 	"ListaDoblementeEnlazada.h"
 
-1581884474 source:d:\users\omar\desktop\codeblocks - c++\practica_1\src\generarmenu.cpp
+1582063149 source:d:\users\omar\desktop\codeblocks - c++\practica_1\src\generarmenu.cpp
 	"GenerarMenu.h"
 	<iostream>
 	<curses.h>
 	"ListaDoblementeEnlazada.h"
 	"Archivo.h"
+
+1582060740 source:d:\users\omar\desktop\codeblocks - c++\practica_1\src\pila.cpp
+	"Pila.h"
+
+1582060740 d:\users\omar\desktop\codeblocks - c++\practica_1\include\pila.h
 

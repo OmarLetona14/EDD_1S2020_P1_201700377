@@ -50,10 +50,11 @@ void ListaDoblementeEnlazada::mostrar()
 void ListaDoblementeEnlazada::buscar(char dato_b)
 {
     Nodo *aux = new Nodo();
+    bool encontrado=false;
     if(primero!=NULL){
-        while(aux!=NULL){
+        while(aux!=NULL && !encontrado){
             if(aux->data==dato_b){
-
+                encontrado = true;
             }else{
                 aux = aux->siguiente;
             }
@@ -62,4 +63,37 @@ void ListaDoblementeEnlazada::buscar(char dato_b)
         cout<<"La lista esta vacia";
     }
 }
+void ListaDoblementeEnlazada::eliminar(char dato_b)
+{
+    Nodo *aux = new Nodo();
+    Nodo *anterior = new Nodo();
+    anterior = NULL;
+    bool encontrado=false;
+    if(primero!=NULL){
+        while(aux!=NULL && !encontrado){
+            if(aux->data==dato_b){
+                encontrado = true;
+                if(aux == primero){
+                    primero =primero->siguiente;
+                }
+                else if(aux == ultimo){
+                    anterior->siguiente = NULL;
+                    ultimo = anterior;
+                }else{
+                    anterior->siguiente =aux->siguiente;
+                }
 
+            }else{
+                anterior = aux;
+                aux = aux->siguiente;
+            }
+        }
+    }else{
+        cout<<"La lista esta vacia";
+    }
+}
+void ListaDoblementeEnlazada::eliminarUltimo()
+{
+    ultimo->ultimo->siguiente = NULL;
+
+}

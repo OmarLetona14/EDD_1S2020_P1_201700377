@@ -80,6 +80,7 @@ void GenerarMenu::generarVentana()
                         wmove(bs,18,0);
 
                     }else if(cod==3){
+                        bool alive = true;
                         Archivo *arc = new Archivo();
                         WINDOW *entrance = newwin(5,x,19,0);
                         wrefresh(win);
@@ -88,10 +89,17 @@ void GenerarMenu::generarVentana()
                         wmove(entrance,15,0);
                         string cont;
                         cout<<"Introduzca el nombre del archivo";
-                        cin>>cont;
+                        while(alive){
+                                if(entrance=!'1'){
+                                   cont+=wgetch(entrance);
+                                }else{
+                                    alive =false;
+                                }
 
+                        }
                         arc->crearArchivo(cont,content);
                     }
+
                     wrefresh(win);
                 }
 

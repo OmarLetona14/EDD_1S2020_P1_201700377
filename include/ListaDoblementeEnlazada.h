@@ -8,6 +8,8 @@ class ListaDoblementeEnlazada
         void insertarNodoAlFinal(char dato);
         void mostrar();
         void buscar(char dato_b);
+        void eliminarUltimo();
+        void eliminar(char candidate);
 
     protected:
 
